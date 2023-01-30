@@ -3,9 +3,13 @@
 ![](image/1.jpg)
 ![](image/2.jpg)
 
-# Describe:
- It can independently connect USB to communicate with the computer in HID or other ways. (such as simulating keyboard key copy and paste), with multiple color adjustable LED light beads. Can be combined with T-Encoder to communicate via uart. Make up for the defect that T-Encoder has no USB function.
+# Description
 
+The device has the ability to connect to a computer as a USB Human Interface Device (HID). 
+
+It features controllable RGB LED lights to the left to the encoder as well as under the keys. 
+
+Since it can be paired with a T-Encoder for communication via UART, the T-Encoder can in such a way be extended to also work as a HID Device. Please note that it cannot be used as a programmer for the T-Encoder. For this, a LilyGo T-U2T is needed.
 
 # Development method
 
