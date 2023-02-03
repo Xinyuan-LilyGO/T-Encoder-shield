@@ -111,7 +111,8 @@ void setup()
 
 void loop()
 {
-    static int j, color;
+    static int j;
+    static uint32_t color;
     j++;
     for (int i = 0; i < APA102_QUANTITY; i++)
     {
